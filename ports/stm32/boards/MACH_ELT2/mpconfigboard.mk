@@ -23,6 +23,11 @@ MICROPY_SSL_MBEDTLS = 1
 MICROPY_VFS_LFS2 = 1
 MICROPY_HW_ENABLE_ISR_UART_FLASH_FUNCS_IN_RAM = 1
 
+# Enable QSPI flash support
+QSPI_FLASH = w25q256jv
+# Optimization
+CFLAGS_EXTRA = -DSTM32H7_QSPI_FLASH
+
 FROZEN_MANIFEST ?= $(BOARD_DIR)/manifest.py
 
 # Flash tool configuration
