@@ -1,0 +1,15 @@
+{
+    "deploy": [
+        "../deploy.md"
+    ],
+    "docs": "",
+    "features": [],
+    "images": [
+        "mach_elt2.jpg"
+    ],
+    "mcu": "stm32h7",
+    "product": "Mach technology ELT2",
+    "thumbnail": "",
+    "url": "",
+    "vendor": "Mach technology (NL)"
+}
